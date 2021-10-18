@@ -1,0 +1,371 @@
+{
+    "fields": [
+        {
+            "name": "NUM_ENQ",
+            "title": "Identifiant unique du bénéficiaire",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "BEN_SEX_COD",
+            "title": "Code sexe du bénéficiaire (1 : masculin, 2 : féminin)",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "code_res_dpt",
+            "title": "Département de résidence du bénéficiaire",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "BEN_RES_COM",
+            "title": "Commune de résidence du bénéficiaire",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "code_com_insee",
+            "title": "Code commune (INSEE) de résidence du bénéficiaire",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "BEN_NAI_ANN",
+            "title": "Année de naissance du bénéficiaire",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "age",
+            "title": "Age du bénéficiaire",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "classe_age",
+            "title": "Catégorie d'âge du bénéficiaire par tranche d'âge de 5 ans",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "classe_age_10",
+            "title": "Catégorie d'âge du bénéficiaire par tranche d'âge de 10 ans",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "top_cmu",
+            "title": "=1 si bénéficiaire de la CMU-C, 0 sinon (construit à partir de BEN_CTA_TYP dans IR_ORC_R et NS_PRS_F)",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "top_acs",
+            "title": "=1 si bénéficiaire de l'ACS, 0 sinon (construit à partir de BEN_CTA_TYP dans IR_ORC_R et NS_PRS_F)",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "top_ald",
+            "title": "=1 si bénéficiaire en ALD, 0 sinon (top issu de IR_IMB_R croisé avec EXO_MTF)",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "nb_ald",
+            "title": "Nombre d'ALD par bénéficiaire",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "NUM_ALD",
+            "title": "Numéro(s) ALD correspondant(es) (liste)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste",
+            "title": "Poste de dépense détaillé",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste_semi_ag",
+            "title": "Poste de dépense semi-agrégé (nomenclature base RAC)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste_ag",
+            "title": "Poste de dépense agrégé (nomenclature base RAC)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste_racine",
+            "title": "Poste de dépense racine (nomenclature base RAC)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste_hospit",
+            "title": "Poste de dépense hospitalière premier type (nomenclature base RAC)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste_hospit2",
+            "title": "Poste de dépense hospitalière deuxième type (nomenclature base RAC)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste_hospit3",
+            "title": "Poste de dépense hospitalière troisième type (nomenclature base RAC)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste_racine_hospit",
+            "title": "Poste de dépense hospitalière racine (nomenclature base RAC)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "classe_age_bb",
+            "title": "Classe d'age incluant les 0-1 ans comme classe à part entière",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "separation_sdv_hospit",
+            "title": "Appartenance du poste aux soins de ville ou à l'hôpital (valeurs : sdv, hospit)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "Poste_cns",
+            "title": "Poste de dépense agrégé (nomenclature CNS)",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "dep_tot",
+            "title": "Dépense totale présentée au remboursement",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "dep_lien_ald",
+            "title": "Dépense totale présentée au remboursement en lien avec l'(les) ALD(s)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "remb_am",
+            "title": "Montant remboursé par l'assurance maladie obligatoire (part légale)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "tot_rem_bse",
+            "title": "Montant de la base de remboursement de la sécurité sociale",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "acte_quantite",
+            "title": "Quantité d'acte",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "rac_opposable",
+            "title": "Reste à charge opposable",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "rac",
+            "title": "Reste à charge après AMO (part légale)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "rac_amo_sup",
+            "title": "Reste à charge après AMO (dep_tot - remb_am (part légale) - remboursements supplémentaires)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "rac_lien_ald",
+            "title": "Reste à charge après AMO (dep_tot - remb_am (part légale) - remboursements supplémentaires) pour les dépenses en lien avec l'(les) ALD(s)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "depass_c",
+            "title": "Montant des dépassements (dont a été exclu d'éventuels remboursements supplémentaires)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "nb_sejour",
+            "title": "Nombre total de séjours du bénéficiaire dans l'année (par discipline hospitalière, hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "NBSEJ_CPLT_COURT",
+            "title": "Nombre de séjours de moins de 30 jours en hospitalisation à temps complet (par discipline hospitalière, hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "NBSEJ_CPLT_LONG",
+            "title": "Nombre de séjours de 30 jours ou plus en hospitalisation à temps complet (par discipline hospitalière, hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "NBSEJ_PARTL_COURT",
+            "title": "Nombre de séjours de moins de 30 jours en hospitalisation à temps partiel (par discipline hospitalière, hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "NBSEJ_PARTL_LONG",
+            "title": "Nombre de séjours de 30 jours ou plus en hospitalisation à temps partiel (par discipline hospitalière, hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "NBJ_CPLT",
+            "title": "Nombre de jours cumulés d'hospitalisation à temps complet (par discipline hospitalière, hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "NBJ_PARTL",
+            "title": "Nombre de jours cumulés d'hospitalisation à temps partiel (par discipline hospitalière, hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "MNT_TM",
+            "title": "Montant facturé au patient au titre du ticket modérateur (RAC hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "MNT_PF",
+            "title": "Montant facturé au patient au titre de la participation forfaitaire (RAC hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "MNT_FJ",
+            "title": "Montant facturé au patient au titre du forfait hospitalier journalier (RAC hôpital public)",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "top_sup_65_ans",
+            "title": "Age supérieur à 65 ans",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "type_ALD",
+            "title": "Type d'ALD",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "groupe_ALD",
+            "title": "groupe d'ALD",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "cardio_neurovasc",
+            "title": "",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "diabete",
+            "title": "",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "tumeurs",
+            "title": "",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "affection_psy",
+            "title": "",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        }
+    ],
+    "missingValues": ["NaN"],
+    "primaryKey": ["NUM_ENQ", "poste"]
+
+}

@@ -1,0 +1,134 @@
+{
+    "fields": [
+        {
+            "name": "date_insc",
+            "description": "",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "date_rad",
+            "description": "",
+            "type": "date",
+            "nomenclature": "-",
+            "length": "",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "prix_HT",
+            "description": "",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "prix_TTC",
+            "description": "",
+            "type": "number",
+            "nomenclature": "-",
+            "length": "",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "UCD_7",
+            "description": "",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "ann_rad",
+            "description": "",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "mois_rad",
+            "description": "",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "ann_insc",
+            "description": "",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "mois_insc",
+            "description": "",
+            "type": "string",
+            "nomenclature": "-",
+            "length": "",
+            "format": "default",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        }
+    ],
+    "name": "UCD",
+    "title": "UCD",
+    "produit": "PMSI",
+    "missingValues": [
+        ""
+    ],
+    "history": {
+        "dateCreated": "",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "Public",
+    "observation": ""
+}

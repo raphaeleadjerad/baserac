@@ -1,0 +1,119 @@
+{
+    "fields": [
+        {
+            "name": "NUM_ENQ",
+            "title": "",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste",
+            "title": "",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "PRS_PAI_MNT",
+            "title": "",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "TOT_REM_MNT",
+            "title": "",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "TOT_REM_BSE",
+            "title": "",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "top_cmu",
+            "title": "",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "EXO_MTF",
+            "title": "",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "acte_quantite",
+            "title": "",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "top_acs",
+            "title": "",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "poste_ag",
+            "title": "",
+            "type": "string",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "top_exo_mtf",
+            "title": "",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "ARO_REM_MNT",
+            "title": "",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "BEN_AMA_COD",
+            "title": "",
+            "type": "integer",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "dep_lien_ald",
+            "title": "",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "mnt_rem_lien_ald",
+            "title": "",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        },
+        {
+            "name": "aro_rem_lien_ald",
+            "title": "",
+            "type": "number",
+            "format": "default",
+            "nomenclature": ""
+        }
+    ],
+    "missingValues": ["NaN"],
+    "primaryKey": ["NUM_ENQ", "poste"]
+
+}

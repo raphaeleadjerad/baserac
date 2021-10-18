@@ -1,0 +1,18 @@
+stages:
+  - test
+
+testing:
+  image: python:3.7-stretch
+  stage: test
+  before_script:
+    - apt-get update
+    - apt-get install default-jdk -y
+    - pip install pyspark
+    - pip install pytest 
+    - pip install coverage pandas
+  script:
+    - coverage run -m --source baserac/ pytest
+    - coverage report -m
+    - coverage xml
+  rules:
+    - when: manual

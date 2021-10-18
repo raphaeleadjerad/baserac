@@ -1,0 +1,17 @@
+Code de regroupement CCAM dentaire,Définition des codes de regroupement CCAM dentaire
+ADC,actes de chirurgie
+ATM,actes techniques médicaux
+ADI,actes d'imagerie
+AXI,prophylaxie bucco-dentaire
+END,actes d'endodontie
+SDE,soins dentaires
+INO,actes Inlay-Onlay
+TDS,parodontologie
+RPN,réparations sur prothèse
+PDT,prothèses dentaires provisoires prises en charge par l'Assurance maladie
+ICO,Inlay-core
+PAR,prothèses amovibles définitives résine
+PAM,prothèses amovibles définitives métalliques
+PFC,prothèses fixes céramiques
+PFM,prothèses fixes métalliques
+IMP,implantologie

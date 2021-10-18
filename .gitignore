@@ -1,0 +1,10 @@
+.idea/
+.ipynb_checkpoints/
+baserac/__pycache__/
+pipeline_es/*.ipynb
+notebooks/*.ipynb
+notebooks/act_liberale_hospit.ipynb
+notebooks/act_liberale_hospit.py
+demandes/cour_comptes_2021/*.ipynb
+*.xlsx
+*.docx
