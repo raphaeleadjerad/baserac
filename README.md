@@ -8,9 +8,8 @@ et de restes à charge à partir du DCIRS et du PMSI.
 Cette base a permis de produire plusieurs [Études et Résultats](#publications-de-r%C3%A9f%C3%A9rence) sur le sujet des restes à charge en France. 
 
 **Présentation de la DREES** :  
-La Direction de la recherche, des études, de l'évaluation et des statistiques (DREES) 
-est une direction de l'administration centrale des ministères sanitaires et sociaux.  
-https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/la-drees/qui-sommes-nous/
+La Direction de la recherche, des études, de l'évaluation et des statistiques (DREES) est le service statistique ministériel des ministères sanitaires et sociaux, et une direction de l'administration centrale de ces ministères.
+https://drees.solidarites-sante.gouv.fr/article/presentation-de-la-drees
 
 **Données sources utilisées, producteur, date et version** : 
 - *Source de données* : PMSI et DCIRS 2016 et 2017 
